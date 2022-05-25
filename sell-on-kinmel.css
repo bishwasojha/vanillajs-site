@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.head-text{
+    background-color: #f9000005;
+    font-size: 23px;
+    margin : 25px 1px;
+}
+
+.quote{
+    font-size: 15px ;
+}
+
+.seller-form{
+    background: #f9f9f9;
+    margin:  5px 5px;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 18px -2px #eaebeb;
+}
+
+.seller-form span{
+    color: rgb(201, 42, 42);
+}
+
+.title{
+    margin:12px 1px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.form-control:focus, .form-control:active{
+    border-color: #eeeeee !important;
+    box-shadow: none !important;
+}
+
+.custom-select:focus, .custom-select:active{
+    border-color: #eeeeee !important;
+    box-shadow: none !important;
+}

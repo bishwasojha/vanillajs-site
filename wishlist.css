@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+/*=================header-section==============*/
+/* header-main */
+
+.section-header {
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(51, 51, 51, 0.15); 
+}
+
+.header-main {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+   
+.brand-wrap .logo {
+    margin-right: 7px;
+    max-height: auto;
+    width: 125px;
+    display: inline-block; 
+} 
+
+form .header-search-part select{
+    border: 1px solid #cfcfcf;
+}
+form .header-search-part button{
+    border: 1px solid #cfcfcf;
+    border-top-right-radius: 0.55rem;
+    border-bottom-right-radius: 0.55rem;   
+}
+
+form .header-search-part .custom-select {
+    border-color: transparent; 
+}
+  
+form .form-control:focus, form .form-control:active, form .custom-select:focus{
+    border-color: #cccccc !important;
+    box-shadow: none;
+}
+
+form .custom-select:focus{
+    background-color: #f2f2f2;
+}
+
+
+.widget-header {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative; 
+}
+
+.widget-header .widget-view {
+    padding: 5px 7px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;     
+}
+    
+.widget-header .icon-area {
+    font-size: 24px;
+    display: inline-block;
+    width: 36px;
+    height: 30px;
+    color:  #ff8686;; 
+}
+
+ 
+.widget-header .text {
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    line-height: 1.2; 
+    color: #ff6a00;
+}
+    
+.widget-header a {
+    color: #212529; 
+}
+    
+.widget-header:hover i {
+    color: #212529; 
+}
+    
+/* Navbar-menu */
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    right: 3px;
+    top: 40%;
+}
+
+.dropdown-submenu:hover .dropdown-menu, .dropdown-submenu:focus .dropdown-menu{
+    display: block;
+    margin-top: -1px;
+    margin-left: -1px;
+    top: 0px;
+    left: 100%;
+    min-height: 100%;
+}
+ 
+.dropdown-menu {
+    min-height: 200%;
+}
+
+.navbar-main .nav-link:hover, .navbar-main .dropdown-item:hover {
+    color: #ff6a00; 
+}
+/*=====//header-section==============*/
+  
+/*=========wishlist==============*/
+.card .title:hover{
+    color: rgb(255, 99, 72) !important;
+    text-decoration: underline;
+}
+
+.card img{
+    width: 100px !important;
+    height: 125px !important;
+}
+.row figure{
+    margin-bottom: 3rem;
+}
+
+figure .info{
+    padding-left:15px;
+    padding-bottom: 15px;
+}
+
+/* .col-lg-4{
+    border-right: 2px rgb(221, 220, 220) solid;
+
+} */
+
